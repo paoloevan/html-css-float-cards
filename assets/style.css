@@ -36,7 +36,7 @@ h1, p {
 
 .col {
     background-color: red;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 2rem);
     float: left;
     margin: 0 1rem 1.5rem 1rem;
 }
