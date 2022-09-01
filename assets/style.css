@@ -18,6 +18,10 @@ img {
     --team-card: #0F0E17;
     --team-title: #E53170;
 }
+body {
+    font-family: 'Baloo 2', cursive;
+}
+
 /* / comon rules */
 
 /* utilities */
@@ -36,6 +40,7 @@ h1, p {
 
 h1 {
     color: var(--team-title);
+    font-family: 'Fredoka One', cursive;
 }
 
 .row {
@@ -52,22 +57,23 @@ h1 {
 }
 
 .col > img {
-    width: 30%;
+    width: 25%;
     float: left;
     margin-right: 1rem;
 }
 
+.text_card {
+    float: left;
+}
+
 h3 {
     color: white;
-    padding-top: 0.6rem;
 }
 
 .description {
     color: white;
-    padding-top: 0.6rem;
 }
 
 .mail {
     color: rgba(0, 162, 255, 0.925);
-    padding-top: 0.6rem;
 }
