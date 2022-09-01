@@ -44,10 +44,6 @@ h1 {
     font-family: 'Fredoka One', cursive;
 }
 
-.row {
-    width: 100%;
-}
-
 .col {
     background-color: var(--team-card);
     width: calc(100% / 3 - 2rem);
