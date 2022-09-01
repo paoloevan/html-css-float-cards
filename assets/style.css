@@ -18,6 +18,7 @@ img {
     --team-card: #0F0E17;
     --team-title: #E53170;
 }
+
 body {
     font-family: 'Baloo 2', cursive;
 }
@@ -25,13 +26,13 @@ body {
 /* / comon rules */
 
 /* utilities */
-.clearfix {
+.clearfix::after {
     display: table;
     content: "";
     clear: both;
 }
+/* / utilities */
 
-/* body */
 h1, p {
     text-align: center;
     margin-top: 1.5rem;
@@ -53,7 +54,6 @@ h1 {
     float: left;
     margin: 0 1rem 1.5rem 1rem;
     box-shadow: 0 0 5px black;
-
 }
 
 .col > img {
@@ -66,13 +66,10 @@ h1 {
     float: left;
 }
 
-h3 {
+h3, .description {
     color: white;
 }
 
-.description {
-    color: white;
-}
 
 .mail {
     color: rgba(0, 162, 255, 0.925);
