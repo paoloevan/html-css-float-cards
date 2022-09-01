@@ -5,17 +5,25 @@
     box-sizing: border-box;
 }
 
-.clearfix {
-    display: table;
-    content: "";
-    clear: both;
-}
-
-.contenitor {
+.container {
     width: 80%;
     margin: auto;
 }
 
 img {
     max-width: 100%;
+}
+
+/* utilities */
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* header */
+h1 {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
