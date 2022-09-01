@@ -14,29 +14,60 @@ img {
     max-width: 100%;
 }
 
+:root {
+    --team-card: #0F0E17;
+    --team-title: #E53170;
+}
+/* / comon rules */
+
 /* utilities */
 .clearfix {
     display: table;
     content: "";
     clear: both;
 }
-/* / comon rules */
 
+/* body */
 h1, p {
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
 }
 
+h1 {
+    color: var(--team-title);
+}
 
-/* main */
 .row {
     width: 100%;
 }
 
 .col {
-    background-color: red;
+    background-color: var(--team-card);
     width: calc(100% / 3 - 2rem);
     float: left;
     margin: 0 1rem 1.5rem 1rem;
+    box-shadow: 0 0 5px black;
+
+}
+
+.col > img {
+    width: 30%;
+    float: left;
+    margin-right: 1rem;
+}
+
+h3 {
+    color: white;
+    padding-top: 0.6rem;
+}
+
+.description {
+    color: white;
+    padding-top: 0.6rem;
+}
+
+.mail {
+    color: rgba(0, 162, 255, 0.925);
+    padding-top: 0.6rem;
 }
