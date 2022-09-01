@@ -1,0 +1,21 @@
+/* common rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.contenitor {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
